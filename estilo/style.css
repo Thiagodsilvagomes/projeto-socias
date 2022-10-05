@@ -9,6 +9,7 @@
 html, body{
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 body{
@@ -39,4 +40,25 @@ iframe#tela{
     left: 22px;
     height: 471px;
     width: 269px;
+}
+
+section#redes-socias img:hover{
+    transform: translate(3px, -3px);
+    transition: 0.3s;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px black;
+
+
+}
+
+section#redes-socias img{
+    width: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+    display: table;
+    vertical-align: middle;
+    margin-left: 10px;
+    box-sizing: border-box;
+
 }
